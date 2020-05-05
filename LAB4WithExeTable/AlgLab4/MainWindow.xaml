@@ -1,0 +1,46 @@
+﻿<Window x:Class="AlgLab4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlgLab4"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="13"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Width" Value="100"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Orientation="Vertical" VerticalAlignment="Center">
+            <StackPanel>
+                <TextBlock Text="Array size"/>
+                <TextBox Text="{Binding ArraySize}"/>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock Text="Step"/>
+                <TextBox Text="{Binding Step}"/>
+                <Button Command="{Binding Execute}" Content="Execute" Margin="0,3,10,10" Width="100" HorizontalAlignment="Left"/>
+                <ComboBox ItemsSource="{Binding TypesSortsList}" SelectedValue="{Binding SelectedSort}" Width="100" HorizontalAlignment="Left"/>
+            </StackPanel>
+        </StackPanel>
+        <lvc:CartesianChart Series="{Binding SeriesCollection}" Grid.Column="1" Grid.Row="0"/>
+    </Grid>
+</Window>
