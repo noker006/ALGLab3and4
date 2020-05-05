@@ -1,0 +1,11 @@
+C:\ALG\AlgLab3\bin\Debug\netcoreapp2.1\AlgLab3.deps.json
+C:\ALG\AlgLab3\bin\Debug\netcoreapp2.1\AlgLab3.runtimeconfig.json
+C:\ALG\AlgLab3\bin\Debug\netcoreapp2.1\AlgLab3.runtimeconfig.dev.json
+C:\ALG\AlgLab3\bin\Debug\netcoreapp2.1\AlgLab3.dll
+C:\ALG\AlgLab3\bin\Debug\netcoreapp2.1\AlgLab3.pdb
+C:\ALG\AlgLab3\obj\Debug\netcoreapp2.1\AlgLab3.csprojAssemblyReference.cache
+C:\ALG\AlgLab3\obj\Debug\netcoreapp2.1\AlgLab3.csproj.CoreCompileInputs.cache
+C:\ALG\AlgLab3\obj\Debug\netcoreapp2.1\AlgLab3.AssemblyInfoInputs.cache
+C:\ALG\AlgLab3\obj\Debug\netcoreapp2.1\AlgLab3.AssemblyInfo.cs
+C:\ALG\AlgLab3\obj\Debug\netcoreapp2.1\AlgLab3.dll
+C:\ALG\AlgLab3\obj\Debug\netcoreapp2.1\AlgLab3.pdb
