@@ -1,0 +1,13 @@
+C:\ALG\AlgLab5\bin\Debug\netcoreapp3.1\AlgLab5.exe
+C:\ALG\AlgLab5\bin\Debug\netcoreapp3.1\AlgLab5.deps.json
+C:\ALG\AlgLab5\bin\Debug\netcoreapp3.1\AlgLab5.runtimeconfig.json
+C:\ALG\AlgLab5\bin\Debug\netcoreapp3.1\AlgLab5.runtimeconfig.dev.json
+C:\ALG\AlgLab5\bin\Debug\netcoreapp3.1\AlgLab5.dll
+C:\ALG\AlgLab5\bin\Debug\netcoreapp3.1\AlgLab5.pdb
+C:\ALG\AlgLab5\obj\Debug\netcoreapp3.1\AlgLab5.csprojAssemblyReference.cache
+C:\ALG\AlgLab5\obj\Debug\netcoreapp3.1\AlgLab5.csproj.CoreCompileInputs.cache
+C:\ALG\AlgLab5\obj\Debug\netcoreapp3.1\AlgLab5.AssemblyInfoInputs.cache
+C:\ALG\AlgLab5\obj\Debug\netcoreapp3.1\AlgLab5.AssemblyInfo.cs
+C:\ALG\AlgLab5\obj\Debug\netcoreapp3.1\AlgLab5.dll
+C:\ALG\AlgLab5\obj\Debug\netcoreapp3.1\AlgLab5.pdb
+C:\ALG\AlgLab5\obj\Debug\netcoreapp3.1\AlgLab5.genruntimeconfig.cache
